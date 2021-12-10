@@ -94,11 +94,11 @@ const thoughtController = {
                 res.json({ message: 'Thought deleted successfully' })
             })
             .catch(err => {
-                res.status(500).json(err);
+                res.status(400).json(err);
             })
         })
         .catch(err => {
-            res.status(500).json(err);
+            res.status(400).json(err);
         })
     },
 
@@ -117,7 +117,7 @@ const thoughtController = {
             res.json(dbThoughtData);
         })
         .catch(err => {
-            res.status(500).json(err);
+            res.status(400).json(err);
         })
     },
 
@@ -136,7 +136,7 @@ const thoughtController = {
             res.json(dbThoughtData);
         })
         .catch(err => {
-            res.status(500).json(err);
+            res.status(400).json(err);
         })
     }
 }
