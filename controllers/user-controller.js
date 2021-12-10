@@ -1,5 +1,4 @@
-const { User, Thought } = require('../models');
-const { findOneAndUpdate } = require('../models/Thoughts');
+const { User, Thoughts } = require('../models');
 
 const userController = {
     // get all Users
@@ -26,7 +25,7 @@ const userController = {
             })
             .select('-__v')
             .then(dbUserData => {
-                // if no pizza found, send 404
+                // if no user found, send 404
                 if (!dbUserData) {
                     res.status(404).json({ message: 'No user found with this id! '});
                     return;
