@@ -121,7 +121,7 @@ const thoughtController = {
         })
     },
 
-    // update reaction
+    // delete reaction
     updateReaction() {
         Thoughts.findOneAndUpdate(
             { _id: params.thoughtId },
