@@ -28,3 +28,5 @@ router
     .route('/:thoughtId/reactions')
     .post(newReaction)
     .delete(deleteReaction)
+
+module.exports = router;
