@@ -14,12 +14,11 @@ const {
 router
     .route('/')
     .get(getAllThoughts)
-    .post(newThought)
 
 // Set up route to post individual thoughts
-// router
-//     .route('/:userId')
-//     .post(newThought)
+router
+    .route('/:userId')
+    .post(newThought)
 
 //set up routes to /api/thoughts/:id
 router
