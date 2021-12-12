@@ -17,6 +17,8 @@
 
   ## Usage
   To use the application, enter npm start in your terminal to initialize the server. Once the server has been initialized, the routes can be tested in Insomnia Core, or another similar application.
+  
+  To view a walkthrough of the functionality of this application, please visit this [link](https://watch.screencastify.com/v/62AUNRAMd8Qf7eLprIE9)
 
   ## License
   [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
